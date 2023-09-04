@@ -47,7 +47,7 @@ for(let i = 0; i <= 100; i++) {
 let i = 0;
 while (i <= 100) {
   if(i % 3 === 0) {
-    console.log(i)
+    console.log(i, 'adalah kelipatan dari 3')
   }
   i += 2;
 }
@@ -55,7 +55,7 @@ while (i <= 100) {
 let j = 0;
 while (j <= 100) {
   if(j % 6 === 0) {
-    console.log(j)
+    console.log(j, 'adalah kelipatan dari 6')
   }
   j += 5;
 }
@@ -63,7 +63,7 @@ while (j <= 100) {
 let h = 0;
 while (h <= 100) {
   if(h % 10 === 0) {
-    console.log(h)
+    console.log(h, 'adalah kelipatan dari 10')
   }
   h += 9;
 }
